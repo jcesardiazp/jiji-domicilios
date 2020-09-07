@@ -1,0 +1,2 @@
+INSERT INTO catalogo (id_catalogo,titulo,precio,clasificacion,genero,estado,fecha,imagen,selccion,autor,ilustrador,url,sinopsis,comentario,novedades,editorial) VALUES ('01','La broma Asesina','85000','clasificacion R','Accion',true,'22/08/2020','jiji\src\assets\img\avatar.jpg','comic','frank miller','alan mur ','https://www.youtube.com/watch?v=0BG5HVCIl1E','Batman: The Killing Joke —en español: Batman: la broma asesina, conocida también en Hispanoamérica como Batman: la broma macabra y Batman: la broma mortal— ','excelente estado del comic',true,'norma');
+
