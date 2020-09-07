@@ -21,6 +21,7 @@ public class PruebaControllerCatalogo {
 	@Autowired
 	private IPruebaServiceCatalogo servicePrueba;
 	
+	
 	@GetMapping("/catalogo")
 	public List<Catalogo> buscarTodos(){
 		return servicePrueba.buscarTodos();
@@ -33,15 +34,5 @@ public class PruebaControllerCatalogo {
 		return catalogo;
 	}
 	
-	@PutMapping("/catalogo")
-	public Catalogo modificar(@RequestBody Catalogo catalogo) {
-		servicePrueba.guardar(catalogo);
-		return catalogo;
-	} 
-	
-	@DeleteMapping("/catalogo/{id}")
-	public String eliminar(@PathVariable("id") String id) {
-		servicePrueba.eliminar(id);
-		return "Registro Eliminado";
-	}
+
 }
